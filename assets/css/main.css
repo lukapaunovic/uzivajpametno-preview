@@ -1836,7 +1836,7 @@ h3 {
   background: var(--white);
 }
 
-.reader-paper canvas {
+.reader-paper img {
   display: block;
   width: 100%;
   height: auto;

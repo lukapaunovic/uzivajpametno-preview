@@ -5,10 +5,10 @@
   const opener = document.querySelector('[data-reader-open]');
   if (!dialog || !opener || typeof dialog.showModal !== 'function') return;
 
+  const manifestURL = new URL(dialog.dataset.pages, document.baseURI);
   const find = (selector) => dialog.querySelector(selector);
   const stage = find('.reader-stage');
   const paper = find('.reader-paper');
-  const canvas = find('canvas');
   const transcript = find('.reader-transcript');
   const status = find('.reader-status');
   const previous = find('[data-reader-previous]');
@@ -21,7 +21,6 @@
   let zoom = 100;
   let busy = true;
   let revision = 0;
-  let renderTask;
   let renderQueue = Promise.resolve();
   let touchStart;
   let resizeTimer;
@@ -45,22 +44,18 @@
   async function loadDocument() {
     if (!documentPromise) {
       documentPromise = (async () => {
-        const pdfjs = await import(dialog.dataset.library);
-        pdfjs.GlobalWorkerOptions.workerSrc = dialog.dataset.worker;
-        const pdf = await pdfjs.getDocument({ url: opener.href }).promise;
-        const orderedPages = [];
-        for (let number = 1; number <= pdf.numPages; number += 1) {
-          const page = await pdf.getPage(number);
-          const viewport = page.getViewport({ scale: 1 });
-          // The original print PDF contains spreads. Show their halves in order.
-          const count = viewport.width > viewport.height ? 2 : 1;
-          const width = viewport.width / count;
-          for (let half = 0; half < count; half += 1) {
-            orderedPages.push({ page, width, height: viewport.height, x: half * width });
-          }
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 15000);
+        try {
+          const response = await fetch(manifestURL, { signal: controller.signal });
+          if (!response.ok) throw new Error('Brochure pages unavailable');
+          const manifest = await response.json();
+          if (!Array.isArray(manifest.pages) || !manifest.pages.length) throw new Error('Invalid brochure');
+          pages = manifest.pages;
+          return manifest;
+        } finally {
+          clearTimeout(timeout);
         }
-        pages = orderedPages;
-        return pdf;
       })().catch((error) => {
         documentPromise = undefined;
         throw error;
@@ -75,43 +70,27 @@
     const entry = pages[current];
     stage.classList.toggle('reader-zoom-150', zoom === 150);
     stage.classList.toggle('reader-zoom-200', zoom === 200);
+    const source = new URL(entry.image, manifestURL).href;
+    // Ordinary images work without a PDF engine, module workers or recent JS APIs.
+    const image = new Image();
+    await new Promise((resolve, reject) => {
+      const timeout = setTimeout(() => reject(new Error('Page load timed out')), 15000);
+      image.onload = () => { clearTimeout(timeout); resolve(); };
+      image.onerror = () => { clearTimeout(timeout); reject(new Error('Page unavailable')); };
+      image.src = source;
+    });
+    if (token !== revision || !dialog.open) return;
+    image.width = entry.width;
+    image.height = entry.height;
+    image.alt = '';
+    paper.replaceChildren(image);
     paper.hidden = false;
-    {
-      const content = await entry.page.getTextContent();
-      if (token !== revision || !dialog.open) return;
-      const paragraphs = [];
-      let line = '';
-      for (const item of content.items) {
-        if (!('str' in item) || item.transform[4] < entry.x - 1 || item.transform[4] >= entry.x + entry.width - 1) continue;
-        line += `${item.str.replace(/[\u0000-\u001f]/g, '')} `;
-        if (item.hasEOL && line.trim()) {
-          paragraphs.push(line.trim());
-          line = '';
-        }
-      }
-      if (line.trim()) paragraphs.push(line.trim());
-      transcript.replaceChildren(...paragraphs.map((text) => {
-        const paragraph = document.createElement('p');
-        paragraph.textContent = text;
-        return paragraph;
-      }));
-      transcript.setAttribute('aria-label', `Tekst strane ${current + 1}`);
-    }
-    {
-      const width = paper.clientWidth;
-      // Keep one canvas in memory and cap its backing bitmap for mobile devices.
-      const density = Math.min(window.devicePixelRatio || 1, 2);
-      const scale = Math.min(width * density / entry.width, Math.sqrt(4000000 / (entry.width * entry.height)));
-      canvas.width = Math.round(entry.width * scale);
-      canvas.height = Math.round(entry.height * scale);
-      renderTask = entry.page.render({
-        canvas,
-        viewport: entry.page.getViewport({ scale }),
-        transform: [1, 0, 0, 1, -entry.x * scale, 0],
-      });
-      await renderTask.promise;
-      renderTask = undefined;
-    }
+    transcript.replaceChildren(...entry.text.map((text) => {
+      const paragraph = document.createElement('p');
+      paragraph.textContent = text;
+      return paragraph;
+    }));
+    transcript.setAttribute('aria-label', `Tekst strane ${current + 1}`);
     if (token !== revision || !dialog.open) return;
     busy = false;
     status.textContent = `Strana ${current + 1} od ${pages.length}`;
@@ -127,12 +106,11 @@
       resumeFocus = document.activeElement;
     }
     const token = ++revision;
-    renderTask?.cancel();
     busy = true;
     status.textContent = 'Učitavanje stranice…';
     updateControls();
-    renderQueue = renderQueue.catch(() => {}).then(() => render(token)).catch((error) => {
-      if (token !== revision || !dialog.open || error.name === 'RenderingCancelledException') return;
+    renderQueue = renderQueue.catch(() => {}).then(() => render(token)).catch(() => {
+      if (token !== revision || !dialog.open) return;
       paper.hidden = true;
       transcript.replaceChildren();
       stage.setAttribute('aria-busy', 'false');
@@ -181,7 +159,6 @@
   });
   dialog.addEventListener('close', () => {
     ++revision;
-    renderTask?.cancel();
     document.documentElement.classList.remove('reader-open');
     resumeFocus = undefined;
     opener.focus({ preventScroll: true });

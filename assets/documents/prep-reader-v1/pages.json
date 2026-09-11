@@ -1,0 +1,420 @@
+{
+  "sourceSha256": "6e015c1418ad028a7fc80136401e42471fe234afeac66b1c380186cacefda27c",
+  "pages": [
+    {
+      "image": "page-01.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "VODIČ\nza PrEP",
+        "2. izdanje"
+      ]
+    },
+    {
+      "image": "page-02.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "2  |  VodIč za PrEP",
+        "Urednik: Bratislav Prokić",
+        "Izdavač: \nNacionalni centar za seksualno i  \nreproduktivno zdravlje - Potent, Beograd",
+        "Recenzenti: \nasist. dr spec. infektologije Marko Marković, \nKlinika za infektivne i tropske bolesti UKC Srbije",
+        "dr spec. epidemiologije Biljana Begović Vuksanović, \nGradski zavod za javno zdravlje Beograd",
+        "Tehnički urednik: \nNemanja Vojnović",
+        "Štampa:  \nKotur i ostali d.o.o., Beograd",
+        "Tiraž:  \n3.000 primeraka",
+        "ISBN-978-86-904040-0-1.",
+        "Drugo izdanje",
+        "Beograd, 2023.",
+        "Besplatan primerak",
+        "Vodič za PrEP (pdf)",
+        ""
+      ]
+    },
+    {
+      "image": "page-03.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "3  |  VodIč za PrEP",
+        "Sadržaj:",
+        "Osnovno o PrEP-u str. 5",
+        "Pre i tokom upotrebe   \nPrEP-a str. 14",
+        "Kome je namenjen PrEP str. 6",
+        "Da li je PrEP za mene str. 7",
+        "Ako nabavljaš PrEP \nna drugi način str. 17",
+        "Kako se PrEP koristi str. 8",
+        "Nuspojave, rezistencija \nstr. 18",
+        "Svakodnevno str. 10",
+        "Interakcije sa drugim \nlekovima str. 19",
+        "Po potrebi str. 12",
+        "PrEP za žene, trans i \nnebinarne osobe str. 20",
+        "Saveti za redovnu  \nupotrebu str. 13"
+      ]
+    },
+    {
+      "image": "page-04.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "4  |  VodIč za PrEP",
+        "Reč urednika",
+        "Pred vama je drugo, dopunjeno izdanje Vodi-\nča za PrEP. Nadamo se da će pomoći svima \nkoji žele da preuzmu odgovonost za svoje \nzdravlje i da zaštite sebe i svoje partnere.",
+        "Rizik od HIV infekcije je 18 puta veći kod anal-\nnog seksa u odnosu na  vaginalni. Međutim, \nsvest o riziku ne garantuje da ćemo se uvek \nadekvatno zaštiti, posebno u trenucima sla-\nbosti, u naletima strasti, ili ako nam korišćenje \nkondoma generalno predstavlja izazov.",
+        "Statistika kaže da muškarci koji su prijavili ne-\nzaštićeni seks sa drugim muškarcima, čine \noko 80% novih slučaja HIV infekcije u Srbiji. \nPoređenja radi, u Velikoj Britaniji, gej muškar-\nci više nisu većina novodijagnostikovanih, bu-\ndući da desetine hiljada ljudi koristi PrEP.",
+        "Iako interesovanje za PrEP-om u Srbiji raste, još uvek je ve-\nliki broj onih koji ne znaju za ovaj vid prevencije, imaju pre-\ndrasude ili pogrešne informacije. U situaciji u kojoj PrEP ne \npokriva zdravstveno osiguranje, mnogi u Srbiji koji bi želeli \nda ga koriste, ne mogu sebi to da priušte.",
+        "Potent se od 2019. godine zalaže za veću dostupnost \nPrEP-a i pruža besplatnu podršku svima koji žele da ga ko-\nriste. To radimo u saradnji sa zdravstvenim ustanovama u \nskladu sa relevantnim medicinskim vodičima."
+      ]
+    },
+    {
+      "image": "page-05.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "5  |  VodIč za PrEP",
+        "Osnovno o PrEP-u",
+        "PrEP je skraćenica od „preekspoziciona profilaksa“. \nPreekspoziciona znači da se sa upotrebom započinje pre izlaganja riziku.\nProfilaksa znači sprečavanje infekcije.",
+        "PrEP je sredstvo zaštite od HIV infekcije u obliku tableta.\nSadrži aktivne supstance tenofovir i emtricitabin. \nEfikasno smanjuje rizik od inficiranja HIV-om za više od 99%.",
+        "Da li je PrEP štetan?",
+        "PrEP nema negativan uticaj na zdravlje kod ogromne većine korisnika. To-\nkom redovnih kontrola, obavljaju se testovi vezani za moguća neželjena dej-\nstva. Ona su retka i reverzibilna, odnosno nestaju nakon prestanka korišćenja \nPrEP-a.",
+        "Da li PrEP štiti od drugih infekcija?",
+        "PrEP ne štiti od drugih polnih infekcija, kondom štiti. HIV je hronična infekcija \nkoja zahteva doživotno lečenje, dok se većina drugih polnih bolesti danas \nrelativno lako leči, a neke se mogu sprečiti vakcinacijom.",
+        "Da li je PrEP dostupan u Srbiji?",
+        "PrEP je registrovan u Srbiji, ali do štampanja ovog Vodiča, nije uveden na listu \nlekova koje pokriva zdravstveno osiguranje. Kupuje se u apoteci uz lekarski \nizveštaj, a cena kutije od 30 tableta je oko 5 500 RSD.",
+        "PrEP",
+        "PEP",
+        "TasP",
+        "preekspoziciona \nprofilaksa",
+        "postekspoziciona \nprofilaksa",
+        "terapija kao  \nprevencija",
+        "Anti-HIV lekovi koje \nkoriste HIV negativne \nosobe preventivno, \npre i posle izlaganja \nriziku od inficiranja.",
+        "Anti-HIV lekovi koje \nkoriste HIV pozitivne \nosobe kao terapiju,  \nšto sprečava dalji \nprenos infekcije.",
+        "Anti-HIV lekovi \nkoje koriste HIV \nnegativne osobe u \nhitnim situacijama, \nneposredno nakon \nizlaganja riziku."
+      ]
+    },
+    {
+      "image": "page-06.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "6  |  VodIč za PrEP",
+        "Kome je namenjen PrEP",
+        "Ko može da koristi PrEP?",
+        "PrEP je namenjen osobama koje nemaju HIV, ali su u pojačanom riziku od in-\nficiranja. Na prvom mestu se preporučuje muškarcima koji imaju nezaštićene \nseksualne odnose sa muškarcima, a može se razmotriti i kod drugih osoba.",
+        "Ko ne treba da uzima PrEP?",
+        "PrEP se ne sme davati osobama koje imaju HIV ili nisu testirane! Nije po-\ntrebno da ga koriste osobe koje su u stanju da uvek koriste kondom, ili su u \nmonogamnoj vezi sa osobom koja dokazano nema HIV i ima nizak rizik od \ninficiranja.",
+        "Da li je potreban PrEP kada partner ima HIV?",
+        "PrEP se preporučuje HIV negativnoj osobi čiji partner/ka ima HIV u slučaju da:\n- partner/ka se ne leči, ili ima detektabilan virus u krvi.\n- ne zna da li partner/ka ima nedetektabilan virus i da li redovno uzima terapiju.\n- ili ima druge seksualne partnere sa kojima ne koristi kondom.",
+        "Nemerljivo = Nezarazno (N=N)",
+        "Osobe koje žive sa HIV-om i redovnim korišćenjem antiretrovirusne terapije \npostižu i održavaju nemerljivu viremiju (nedetektabilna HIV RNK PCR), nisu \nzarazni i ne mogu preneti HIV seksualnim putem.",
+        "Više informacija o N=N",
+        ""
+      ]
+    },
+    {
+      "image": "page-07.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "7  |  VodIč za PrEP",
+        "Da li je PrEP za mene",
+        "• Da li si u poslednjih 6 meseci imao/la analni seks bez kondoma, sa \nosobom/osobama čiji ti HIV status nije poznat?",
+        "• Da li si u poslednjih 6 meseci imao sifilis, gonoreju ili hlamidiju?",
+        "• Da li imaš partnera/ku koja živi sa HIV-om i ne leči se, ima detektabilnu \nvirus u krvi, ili neredovno uzima terapiju?",
+        "Korišćenje alkohola i narkotika, grupni seks, seks za novac, neki su od do-\ndatnih faktora koji mogu povećati rizik od stupanja u nezaštićeni seksualni \nodnos. Uzmi ih u obzir kada donosiš odluke o korišćenju PrEP-a."
+      ]
+    },
+    {
+      "image": "page-08.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "8  |  VodIč za PrEP",
+        "Kako se PrEP koristi",
+        "Sa PrEP-om se započinje pre seksa, kako bi se u tkivima stvorila dovoljna \nzaštita.  Uzima se i posle seksa, kako bi se zaštita održala dovoljno dugo da \nspreči infekciju.",
+        "Na koji način mogu da koristim PrEP?",
+        "PrEP možeš da koristiš svakodnevno i po potrebi. Svakodnevno doziranje \npruža zaštitu 24 sata dnevno, 7 dana u nedelji. Ako seks imaš jednom nedelj-\nno ili ređe i u mogućnosti si da ga unapred planiraš, PrEP možeš uzimati po \npotrebi.",
+        "Koja su ograničenja kod izbora režima?",
+        "Žene i trans osobe koje upražnjavaju receptivni vaginalni/frontalni seks, kao i \nosobe koje imaju hroničnu infekciju hepatitisa B, ne mogu da koriste PrEP po \npotrebi, već samo svakodnevno.",
+        "Koji je režim delotvorniji?",
+        "PrEP-a će biti delotvoran onoliko koliko ga budeš pravilno koristio, nezavisno \nod izabranog režima.\nRezultati francuske IPERGAY studije, koja je ispitivala efekte doziranja po po-\ntrebi, su gotovo identični rezultatima engleske PROUD studije, koja je ispiti-\nvala efekte svakodnevne upotrebe."
+      ]
+    },
+    {
+      "image": "page-09.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "9  |  VodIč za PrEP",
+        "Mogu li da menjam režim?",
+        "Možeš prelaziti s jednog režima na \ndrugi, u skladu sa tvojim potrebama \ni mogućnostima.",
+        "Do kada mogu da koristim    \n  PrEP?",
+        "PrEP možeš da koristiš sve vreme \ndok si u riziku od inficiranja HIV-om i \ndok se tvoja životna situacija ne pro-\nmeni.",
+        "PrEP se mora prekinuti  \n  u situacijama ako:",
+        "- postoje ozbiljna neželjena dejstva\n- postoje simptomi rane HIV infekcije\n- osoba ne može da isprati režim le-\nkarskih kontrola i testiranja.",
+        "Po prestanku korišćenja PrEP-a konsultuj se sa lekarom \ni obavi testiranje na HIV i druge polne infekcije. \nTestiranje ponovi nakon 3 meseca.",
+        "Više o polnim infekcijama",
+        ""
+      ]
+    },
+    {
+      "image": "page-10.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "10  |  VodIč za PrEP",
+        "Svakodnevno",
+        "Kako da započnem sa svakodnevnim režimom?",
+        "Svakog dana uzimaj po jednu tabletu PrEP-a u isto vreme i nakon sedmog \ndana ćeš imati izgrađenu zaštitu. Kod analnog seksa, svakodnevnu upotrebu \nmožeš započeti duplom dozom i dobiti zaštitu već nakon 2 sata.",
+        "Svakodnevna upotreba PrEP-a",
+        "SEKS",
+        "sub.\nsub.\nned.\nned.\npon.\npon.\nuto.\n...\nsre.\nčet.\npet.",
+        "Zaštitni nivo se postiže svakodnevnim\n     uzimanjem PrEP-a tokom 7 dana \n             Maksimalna zaštita",
+        "Koja je prednost svakodnevnog doziranja?",
+        "Svakodnevni režim ti pruža mogućnost da imaš seks u bilo koje vreme, bez \nplaniranja. Ako seksualne odnose imaš svake nedelje, svakodnevno uzimanje \nje lakše i isplativije.",
+        "Šta ako preskočim dozu?",
+        "Trudi se da svakog dana u isto vreme uzimaš PrEP (sat-dva gore dole). Kada \nga redovno koristiš, nakon nedelju dana ćeš izgraditi dobar nivo zaštite i izo-\nstanak poneke doze neće praviti razliku, ali to ne treba da se dešava suviše \nčesto.",
+        "Kako da prestanem sa PrEP-om?",
+        "Ako više ne želiš da koristiš PrEP, ili želiš da napraviš pauzu, nakon poslednjeg \nodnosa nastavi da koristiš još 2 dana, odnosno još 7 dana kod vaginalnog \nseksa."
+      ]
+    },
+    {
+      "image": "page-11.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "11  |  VodIč za PrEP"
+      ]
+    },
+    {
+      "image": "page-12.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "12  |  VodIč za PrEP",
+        "Po potrebi",
+        "Kako se koristi PrEP po potrebi?",
+        "Započni duplom dozom (dve tablete) u periodu od 24 sata do najkasnije dva \nsata pre seksa. Zatim, nakon 24 sata od duple doze uzmi jednu tabletu, a \nnakon 24 sata još jednu. Ovaj ciklus zovemo „2-1-1“ (2 pre seksa i 1+1 nakon \nseksa).",
+        "Upotreba PrEP-a po potrebi za jedan dan zaštite",
+        "SEKS",
+        "PRE SEKSA:\n2 tabl. minimum 2h pre seksa,\na maksimalno 24h pre seksa",
+        "POSLE SEKSA:\n1 tabl. na 24h od prve doze\n1 tabl. na 48h od prve doze",
+        "sub.\nned.\npon.\nuto.\nsre.\nčet.\npet.",
+        "13h",
+        "13h\n(+/- 2h)",
+        "13h\n(+/- 2h)",
+        "Ako seks imam i nakon druge doze",
+        "U tom slučaju dodaj još jednu dozu 24h nakon poslednje. Ako budeš imao \nseksualne odnose i narednih dana, nastaviti sa korišćenjem PrEP-a, sve dok \nizmeđu dve doze ne budeš imao seks.",
+        "Upotreba PrEP-a po potrebi za par dana zaštite",
+        "PRE SEKSA:\n2 tabl. minimum 2h pre seksa,\na maksimalno 24h pre seksa",
+        "SEKS\nSEKS",
+        "POSLE SEKSA:\n1 tabl. na 24h od prve doze\nNastaviti po 1 tabl. na 24h, \ndok ne budu 2 doze nakon \nposlednjeg seksa",
+        "sub.\nned.\npon.\nuto.\nčet.\npet.",
+        "13h",
+        "13h\n(+/- 2h)\n13h\n(+/- 2h)\n13h\n(+/- 2h)"
+      ]
+    },
+    {
+      "image": "page-13.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "13  |  VodIč za PrEP",
+        "Ako seks imam nakon par dana",
+        "Ako je od prve (duple) doze u prethodnom ciklusu do sledećeg seksualnog \nodnosa prošlo manje od 7 dana, dovoljno je da nov ciklus započneš jednom \ntabletom (1-1-1), zato što već imaš određenu koncentraciju leka u organizmu.",
+        "Ako ne uzmem PrEP na vreme",
+        "Uzimanje prve (duple) doze sa zakašnjenjem daje određen stepen zaštite, \nali je sigurnije da u tom slučaju sačekaš sa seksom ili da koristiš kondom. Za \nrazliku od svakodnevnog režima, ovaj režim ne oprašta preskakanja ili veća \nkašnjenja.",
+        "Ako sam uzeo PrEP, a seks se odloži ili se ne desi",
+        "Ako si uzeo duplu dozu i ne dođe do seksualnog odnosa u naredna 24 sata, \nne treba da nastaviš sa lekovima, osim ako ne planiraš da imaš seks narednih \ndana.",
+        "Saveti za redovnu upotrebu",
+        "Ako PrEP koristiš svakodnevno, podesi alarm na telefonu. Može ti pomoći \ni ako uzimanje PrEP-a vežeš za neku drugu svakodnevnu aktivnost: pranje \nzuba, obrok, ili odlazak na spavanje.",
+        "Kod svakodnevne upotrebe PrEP-a, može ti pomoći aplikacija life4me+ koju \nsmo preveli na srpski jezik. Sadrži podsetnike za uzimanje PrEP-a i tromeseč-\nne kontrole, a moćićeš i da ispratiš koliko si redovno uzimao PrEP.",
+        "Ako PrEP koristiš po potrebi, ne čekaj uvek poslednji trenutak (2 sata pre \nseksualnog odnosa) da bi započeo duplom dozom. Započni u vreme koje će \nti odgovarati i tokom narednih dana, kada treba da uzimaš pojedinačne doze. \nZato, čim uzmeš prvu duplu dozu, podesi alarm na telefonu za naredne dve."
+      ]
+    },
+    {
+      "image": "page-14.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "14  |  VodIč za PrEP",
+        "Pre i tokom upotrebe PrEP-a",
+        "U Potentu možeš da obaviš testove na HIV, hepatitis C i sifilis,  \nkonsultaciju sa lekarom i da dobiješ lekarski izveštaj za PrEP  \nza period od 3 meseca.",
+        "Šta je potrebno da uradim pre započinjanja PrEP-a?",
+        "Da bi bezbedno koristio PrEP, treba da prvo obaviš laboratorijske analize i \nkonsultaciju sa lekarom u Potentu. Osobe koje nemaju antitela na hepatitis B \n(anti-HBs) savetujemo da prime prvu dozu vakcine pre započinjanja sa PrEP-\nom.",
+        "Koje rezultate analiza treba  imati  \n  pre započinjanja sa PrEP-om?",
+        "Test na HIV, hepatitis C i sifilis  (i druge polne infekcije)\nKreatinin iz seruma i eGFR - test funkcije bubrega\nVDRL test - ako si u prošlosti imao sifilis\nTestovi za hepatitis B i to:\nanti-HBs – ako si vakcinisan protiv hepatitisa B, ili si preležao ali nemaš \nmedicinsku dokumentaciju o tome.\nHBsAg, anti-HBs i anti-HBc ukupna antitela – ako nisi vakcinisan, ili ne \nznaš da li si vakcinisan protiv hepatitisa B.",
+        "Da li sam vakcinisan protiv hepatitisa B?",
+        "U Srbiji je 2002. godine uvedena obavezna vakcinacija protiv hepatitisa B \nza svu novorođenčad, a od 2006. godine i za decu u šestom razredu. Ostali \nimaju mogućnost da se vakcinišu na ličnu inicijativu.",
+        "Gde da se vakcinišem?",
+        "Beograd, dr Subotića starijeg 5 – Institut za javno zdravlje Srbije – Batut\nNiš, Bulevar dr Zorana Đinđića 50 – Institut za javno zdravlje\nKragujevac, Nikole Pašića 1 – Institut za javno zdravlje",
+        "Na vakcinaciju ponesi rezultate analiza iz laboratorije."
+      ]
+    },
+    {
+      "image": "page-15.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "15  |  VodIč za PrEP",
+        "Budi slobodan da nas kontaktiraš za podršku i pojašnjenja  \nvezana za testove, rezultate analiza, vakcinacije i drugih nedoumica.",
+        "Kada dođeš u Potent za PrEP",
+        "U Potentu možeš obaviti brze testove na HIV, hepatitis C i sifilis. Ponesi rezul-\ntate ostalih analiza i dokaz o primljenoj prvoj vakcini. Na osnovu rezultata i \nrazgovora, lekar te može uputiti na dodatne preglede i analize.",
+        "Šta uključuje razgovor sa lekarom  \n  pre započinjanja sa PrEP-om?_",
+        "Konsultacija sa lekarom služi da dođeš do odgovora na pitanje: Da li si dobar \nkandidat za PrEP.",
+        "Jasno, bez stida i straha od osude, informiši lekara o:\n- situacijama u kojima si bio u riziku od izlaganja polnim infekcijama\n- polnim bolestima, drugim oboljenjima i poteškoćama u prošlosti do danas\n- lekovima, suplementima i drugim supstancama koje koristiš.",
+        "Budi slobodan da lekara pitaš sve što te zanima o PrEP-u i seksualnom zdravlju.",
+        "Tokom korišćenja PrEP-a",
+        "Na tri meseca obavljaj testiranja i \nlekarske konsultacije.",
+        "Ako si imao sifilis u prošlosti, pre \nsvakog dolaska u Potent obavi \nVDRL test u laboratoriji.",
+        "Kreatinin iz seruma i eGFR radi na \n12 meseci, a ako si stariji od 50 \ngodina, ili imaš smanjenu bubrež-\nnu funkciju, ovaj test obavljaj na 6 \nmeseci.",
+        "dr Biljana\nBegović Vuksanović"
+      ]
+    },
+    {
+      "image": "page-16.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "16  |  VodIč za PrEP",
+        "Testiranje na HIV pre i tokom korišćenja PrEP-a",
+        "Testiranjem želimo da isključimo mogućnost da kandidat/kinja za PrEP mož-\nda već ima HIV, ili da se tokom korišćenja PrEP-a inficirao/la (npr. zbog nepra-\nvilne upotrebe). Takva osoba ne sme da koristi PrEP, kako virus ne bi razvio \nrezistenciju na ovaj važan lek i kao takav se prenosio dalje.",
+        "Zašto proveravam funkciju bubrega?",
+        "U malom broju slučajeva, PrEP može da stvori nove, ili pogorša postojeće \nprobleme sa bubrezima. Zato je važno da test bubrežne funkcije uradiš pre \nuzimanja PrEP-a i redovno na godinu dana, odnosno na 6 meseci ako si stariji \nod 50 godina i imaš smanjenu bubrežnu funkciju.",
+        "Kakve PrEP ima veze sa hepatitisom B?",
+        "Ova infekcija, koja se prenosi polnim putem, može biti prisutna bez simp-\ntoma dugi niz godina. Pored toga, jedna komponenta PrEP-a se koristi i za \nlečenje hepatitisa B. Ako imaš hroničan hepatitis B i povremeno koristiš PrEP, \nvirus bi mogao da stvori rezistenciju na ovaj lek.",
+        "Zašto se testiram na druge polne infekcije?",
+        "Iako se uglavnom lako leče, sifilis i druge polne infekcije mogu pro-\nuzrokovati neugodne posledice. Ako tokom korišćenja PrEP-a dođe \ndo neke infekcije, redovnim testiranjem infekciju ćeš otkriti na vreme, \nsprečiti komplikacije, kao i njeno dalje prenošenje."
+      ]
+    },
+    {
+      "image": "page-17.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "17  |  VodIč za PrEP",
+        "Ako PrEP nabavljaš na drugi način",
+        "Uzimanje PrEP-a od prijatelja ili putem interneta",
+        "Nabavka PrEP-a od prijatelja ili putem interneta, može da nosi sa sobom neke \nrizike. Na primer, izloženost ekstreminim temperaturama prilikom transporta \nmože uticati na delotvornost i bezbednost leka. Na tebi je da doneseš odluku.",
+        "Obratii pažnju da PrEP:\n- ima naziv proizvođača i rok upotrebe na pakovanju\n- sadrži kombinaciju aktivnih supstanci: tenofovir i emtricitabin\n- ima istaknutu dozvolu za promet na pakovanju.",
+        "Da li je legalno da nabavljam PrEP iz inostranstva?",
+        "Nabavka lekova iz inostranstva je legalna samo pod određenim uslovima. Za \nunošenje leka, koji nije registrovan u Srbiji, u količini većoj od 15 dana, po-\ntrebna je dozvola Ministarstva zdravlja, koja se izdaje na osnovu lekarskog \nizveštaja. U suprotnom, lek može biti oduzet na carini. Isto važi i za poručiva-\nnje PrEP-a putem interneta.",
+        "Bez obzira na način na koji nabavljaš PrEP, \nu Potentu možeš da obaviš besplatne \nlekarske konsultacije i testiranje.",
+        "Šta ako sam krenuo da koristim PrEP  \n  bez obavljenog lekarskog pregleda?",
+        "Ako si započeo da koristiš PrEP, bez prethodno obavljenog lekarskog pregle-\nda, obrati nam se. Pomoćićemo ti da nastaviš da koristiš PrEP, a da ne nane-\nseš štetu svom zdravlju i zdravlju tvojih partnera."
+      ]
+    },
+    {
+      "image": "page-18.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "18  |  VodIč za PrEP",
+        "Nuspojave PrEP-a",
+        "Koja su najčešća neželjena dejstva PrEP-a?",
+        "Na početku primene PrEP-a se mogu javiti blaga mučnina, proliv, nadutost \ni glavobolja (dešava se kod manje od jedne na 10 osoba). Ove nuspojave \nobično prestanu za nekoliko dana ili nedelja, jer se organizam navikne na lek.",
+        "Koja su moguća ozbiljnija neželjena dejstva PrEP-a?",
+        "Kod malog broja korisnika PrEP može imati negativan efekat na bubrege. Šte-\nta se može izbeći redovnom kontrolom bubrežne funkcije i prekidom kori-\nšćenja u slučaju pojave znakova smanjene bubrežne funkcije.",
+        "Tokom prve godine upotrebe PrEP-a, može doći do blage demineralizacije \nkostiju. Ovaj efekat je jako mali i ne utiče na krhkost kostiju. Efekat je reverzi-\nbilan nakon prestanka sa korišćenjem PrEP-a.",
+        "Otpornost (rezistencija) na PrEP",
+        "U svetu je zabeležen manji broj slučaja inficiranja korisnika PrEP-a, uprkos pra-\nvilnoj upotrebi. Uzrok tome može biti izloženost soju virusa koji je otporan na \nPrEP, ili rana HIV infekcija koja nije detektovana pre započinjanja sa PrEP-om.",
+        "Šta je rezistencija na PrEP?",
+        "PrEP je antiretrovirusni lek koji se u kombinaciji sa drugim lekovima koristi i u \nlečenju HIV infekcije. PrEP ne može u potpunosti da potisne virus kod osobe \nkoja već ima HIV, ili se tokom korišćenja PrEP-a inficira.",
+        "Virus bi, u slučaju da inficirana osoba koristi PrEP, nastavio da se razmožava, \nda mutira i stvori otpornost (rezistenciju) na ovaj lek i on se više može koristiti \nu daljem lečenju. Šta više, rezistentan soj virusa bi mogao da se prenosi dalje \ni da ugrozi druge korisnike PrEP-a.",
+        "Kako sprečiti rezistenciju na PrEP?",
+        "Rezistenciju možeš sprečiti testiranjem na HIV pre i tokom korišćenja PrEP-a, \nkao i pravilnom upotrebom PrEP-a.",
+        "Saveti za sprečavanje rezistencije:",
+        "1. Obavi savetovanje i testiranje na HIV pre započinjanja sa PrEP-om.",
+        "2. Redovno i pravilno koristiti PrEP."
+      ]
+    },
+    {
+      "image": "page-19.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "19  |  VodIč za PrEP",
+        "3. Obavljaj testiranje na HIV na svaka tri meseca tokom korišćenja PrEP-a.",
+        "4. Prestani sa korišćenjem PrEP-a u slučaju pojave simptoma HIV infekcije.",
+        "5. Potraži pomoć i podršku ako imaš problem sa pravilnom upotrebom PrEP-a.",
+        "PrEP i interakcija sa ostalim lekovima",
+        "Da li PrEP ima interakciju sa drugim lekovima?",
+        "PPrEP nema interakciju s većinom drugih lekova, osim sa nekim nesteroidnim \nprotivuplanim lekovima poput ibuprofena (Brufen®) i neproksena ili sa neste-\nreoidnim antireumatikom: diklofenakom (Diklofen®). Česta upotreba ovih le-\nkova uz PrEP može izazvati probleme sa bubrezima. Ako koristiš neke lekove \nuz PrEP, posavetuj se sa lekarom.",
+        "Provera interakcija PrEP-a sa drugim lekovima",
+        "",
+        "U prvoj koloni izaberi Emticitabine/Tenofovir-DF (PrEP),  \na u drugoj generički naziv drugog leka koji uzimaš."
+      ]
+    },
+    {
+      "image": "page-20.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "20  |  VodIč za PrEP",
+        "PrEP za žene, transrodne i nebinarne osobe",
+        "Ovde ćemo izdvojiti neke specifičnosti upotrebe PrEP-a kod žena, transrod-\nnih i nebinarnih osoba. .",
+        "Da li se ženama preporučuje korišćenje PrEP-a?",
+        "Žene nisu pošteđene rizika od HIV infekcije iako često toga nisu svesne. Tre-\nba razmotriti korišćenje PrEP-a kod HIV negativnih žena koje imaju rizik od \nHIV infekcije: ne koriste kondom pri svakom seksualnom odnosu, ne znaju \nHIV status svog partnera, kao i u slučajevima kada žena ili/i njen partner ima \nviše seksualnih partnera od kojih neko možda ima HIV, ili je nepoznatog HIV \nstatusa.",
+        "Kako se koristi PrEP kod frontalnog/vaginalnog seksa?",
+        "Frontalni receptivni seks zahteva svakodnevnu upotrebu PrEP-a. Potrebno je \nlek uzimati 7 dana u kontinuitetu, kako bi se postigla potrebna koncentracija \nleka u vaginalnom tkivu. Ovaj režim korišćenja je objašnjen u odeljku “Sva-\nkodnevno”. U slučaju da osoba upražnjava samo analni seks, PrEP se može \nkoristiti i “po potrebi” koji je opisan u istom odeljku.",
+        "Osoba koja koristi PrEP-a preuzima kontrolu nad svojim zdravljem \ni ne zavisi od seksualne prakse i rizičnog ponašanja partnera.",
+        "Da li PrEP utiče na kontracepciju?",
+        "PrEP nema uticaja ni na jednu vrstu kontracepcije. Uz PrEP se mogu bez-\nbedno koristiti kontraceptivne pilule, spermicide, spirala, cervikalna kapa i sl. \nKontracepcija neće imati uticaja na koncentraciju PrEP-a u organizmu.",
+        "Da li PrEP utiče na trudnoću?",
+        "Ako se prekine sa korišćenjem kontracepcije, svakodnevnim korišćenjem \nPrEP-a osoba sebe zaštiti od inficiranja HIV-om. PrEP deluje kod svih žena, \nuključujući i trudnice. Studije u kojima su praćene trudnice koje koriste PrEP, \npoput Partners PrEP, VOICE i FEM-PrEP, pokazuju da korišćenje PrEP-a ne po-\nvećava rizik od pobačaja ili od defekta ploda. Ukoliko tokom uzimanja PrEP-a \ndođe do trudnoće, treba obavestiti lekara."
+      ]
+    },
+    {
+      "image": "page-21.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "21  |  VodIč za PrEP",
+        "Mogu li PrEP koristiti osobe  \n  koje su na hormonskoj terapiji?",
+        "PrEP mogu koristiti osobe koje su na hormonskoj terapiji, ako ga uzimaju sva-\nkodnevno i redovno, a ne po potrebi. Treba imati na umu da neki feminizi-\nrajući hormoni mogu smanjiti koncentraciju PrEP-a u organizmu. Iako je to \nneznatno smanjenje koncentracije, posebno je važno je da se PrEP uz hor-\nmonsku terapiju koristi svakodnevno bez preskakanja doza."
+      ]
+    },
+    {
+      "image": "page-22.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "22  |  VodIč za PrEP",
+        "Odricanje od odgovornosti\nInformacije u ovoj brošuri su namenjene kao vodič. Odluke vezane za PrEP \ndonosi u razgovoru sa lekarom. Iznete informacije se u budućnosti mogu \npromeniti na osnovu novih istraživanja i preporuka.",
+        "U kreiranju ovog vodiča korišćeni su materijali:",
+        "UK Guide to PrEP  (i-Base, London, osmo izdanje, novembar 2022)",
+        "Guidelines 10.1 (European AIDS Clinical Society oktobar 2022)",
+        "Preexposure Prophylaxis for The Prevention of HIV Infection in The US (US \nPublic Health Service 2021 - update)",
+        "Now`s the Time to Find Out About PrEP and PEP (CDC, mart 2021)",
+        "PrEP Medication Guide: Reduce Your Risk of Getting HIV (CDC, mart 2021)",
+        "Vodič za PrEP (Iskorak, Zagreb, prvo izdanje, decembar 2020)",
+        "Questions and answers on PrEP (Prepster, London, prvo izdanje jun 2018)",
+        "Zakon o lekovima i medicinskim sredstvima (\"Sl. glasnik RS\", br. 30/2010, \n107/2012, 113/2017 - dr. zakon i 105/2017 - dr. zakon)"
+      ]
+    },
+    {
+      "image": "page-23.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": [
+        "23  |  VodIč za PrEP",
+        "Checkpoint i PrEP-point \nNacionalnog centra za seksualno i reproduktivno zdravlje",
+        "Beograd\nMiloša Pocerca 27",
+        "Niš \nStevana Nemanje 69",
+        "Kragujevac\nVojvode Putnika 58b",
+        "Online \nwww.doktok.rs/klinike/potent",
+        "Podrška:",
+        "Zakaži termin za testiranje \ni savetovanje o PrEP/u",
+        "",
+        "POTENT\nNacionalni centar za seksualno  \ni reproduktivno zdravlje\n+381 63 557-890\nw: potent.org.rs\nfb:@potent.udruzenje\nin:@potent_rs\nyt:@potent.centar\ntt:@potent.rs",
+        "Štampu i distribuciju omogućio je \nGilead Sciences Inc., koji nije imao  \nuticaj na sadržaj brošure."
+      ]
+    },
+    {
+      "image": "page-24.webp",
+      "width": 1600,
+      "height": 2263,
+      "text": []
+    }
+  ]
+}
