@@ -1971,3 +1971,55 @@ h3 {
 /* Allow enlarged text to reflow instead of widening grid tracks. */
 body { overflow-wrap: anywhere; }
 .steps-grid > li, .doctor-copy, .faq-intro, .faq-list { min-width: 0; }
+
+/* Original app screenshot and portrait, presented inside a CSS phone mockup. */
+.hero-visual.app-visual {
+  width: 100%;
+  min-height: 0;
+  height: auto;
+  aspect-ratio: .82;
+  align-self: center;
+  isolation: isolate;
+  border-radius: 24px 88px 24px 24px;
+  background: radial-gradient(ellipse at 70% 65%, #7297ff 0%, transparent 58%), linear-gradient(135deg, #17058b, #3b48c3 55%, #628cfc);
+}
+.app-phone {
+  position: absolute;
+  top: 12%;
+  right: 8%;
+  width: 48%;
+  padding: 18px 6px 12px;
+  border: 3px solid #777b92;
+  border-radius: 28px;
+  background: #111529;
+  box-shadow: 12px 24px 32px rgb(10 5 70 / 35%), inset 0 0 0 2px #30364d;
+  transform: rotate(8deg);
+}
+.app-phone::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: calc(50% - 14px);
+  width: 28px;
+  height: 4px;
+  border-radius: 8px;
+  background: #575c75;
+}
+.app-screen { width: 100%; height: auto; }
+.app-doctor {
+  position: absolute;
+  top: 19%;
+  left: 4%;
+  width: 27%;
+  height: auto;
+  padding: 5px;
+  background: white;
+  box-shadow: 0 12px 28px rgb(10 5 70 / 25%);
+  border-radius: 10px;
+  transform: rotate(-6deg);
+}
+.app-spark { position: absolute; left: 13%; bottom: 19%; width: 9%; height: auto; color: #ffdc64; }
+@media (max-width: 760px) {
+  .hero-visual.app-visual { max-width: 440px; margin-inline: auto; border-radius: 20px 56px 20px 20px; }
+  .app-phone { padding: 14px 4px 9px; border-width: 2px; border-radius: 20px; }
+}
