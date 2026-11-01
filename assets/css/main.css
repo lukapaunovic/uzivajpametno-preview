@@ -2047,3 +2047,23 @@ body { overflow-wrap: anywhere; }
 }
 
 .hero-banner .accent-dot { color: #ffda35; }
+
+/* The supplied doctor tile emerges from the empty right-hand app tile. */
+.app-doctor-card {
+  position: absolute;
+  z-index: 2;
+  top: 49%;
+  left: 50%;
+  width: 64%;
+  max-width: none;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 8px 14px 20px rgb(10 5 70 / 35%);
+  transform: rotate(-8deg);
+  transform-origin: center;
+}
+@media (max-width: 1000px) {
+  .hero-banner .app-visual { max-width: 360px; }
+  .hero-banner .app-phone { width: min(85%, 288px); margin-left: 2%; margin-right: auto; }
+  .app-doctor-card { transform: rotate(-5deg); }
+}
