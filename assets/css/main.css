@@ -2088,3 +2088,38 @@ body { overflow-wrap: anywhere; }
 @media (max-width: 760px) {
   .partner-wordmark { width: 160px; }
 }
+
+/* Secondary social invitation, following the complete consultation block. */
+.instagram-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px 32px;
+  padding-block: 24px 32px;
+  margin-bottom: 32px;
+  border-top: 1px solid var(--line);
+}
+.instagram-section h2 { margin: 0 0 8px; font-size: 1.25rem; line-height: 1.4; }
+.instagram-section p { margin: 0; color: var(--muted); font-size: .9375rem; }
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: .9375rem;
+  font-weight: 650;
+  text-underline-offset: 4px;
+}
+.instagram-section .instagram-link { flex-shrink: 0; color: var(--brand); }
+.instagram-link .icon { flex-shrink: 0; }
+.site-footer .instagram-link { min-height: 44px; }
+.site-footer .instagram-link:focus-visible { outline-color: white; }
+@media (max-width: 760px) {
+  .instagram-section { flex-direction: column; align-items: flex-start; gap: 16px; }
+}
+.hero-support-mobile { display: none; }
+@media (max-width: 760px) {
+  .hero-copy > .hero-support { display: none; }
+  .hero-banner .hero-support-mobile { display: block; margin: -8px 0 0; max-width: none; }
+}
