@@ -2057,7 +2057,7 @@ body { overflow-wrap: anywhere; }
   width: 64%;
   max-width: none;
   height: auto;
-  border-radius: 10px;
+  border-radius: 16px;
   box-shadow: 8px 14px 20px rgb(10 5 70 / 35%);
   transform: rotate(-8deg);
   transform-origin: center;
