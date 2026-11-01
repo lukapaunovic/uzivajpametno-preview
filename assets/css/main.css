@@ -2067,3 +2067,19 @@ body { overflow-wrap: anywhere; }
   .hero-banner .app-phone { width: min(85%, 288px); margin-left: 2%; margin-right: auto; }
   .app-doctor-card { transform: rotate(-5deg); }
 }
+
+/* Hero spacing after removing the introductory eyebrow. */
+.hero-banner .hero-copy h1 { margin-right: 0; }
+.hero-banner .hero-intro { margin-top: 24px; }
+.hero-banner .hero-actions { margin-top: 32px; }
+.hero-banner .hero-support { margin-top: 16px; }
+@media (min-width: 1001px) {
+  .hero.hero-banner { padding-bottom: 48px; }
+  .hero-banner .app-visual { aspect-ratio: auto; padding-block: 24px; }
+  .hero-banner .app-phone { position: relative; top: auto; right: auto; margin-left: 44%; }
+}
+@media (max-width: 1000px) {
+  .hero.hero-banner { padding-bottom: 32px; }
+  .hero-layout { gap: 32px; }
+  .hero-banner .hero-actions { margin-top: 24px; }
+}
