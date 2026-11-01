@@ -2127,7 +2127,8 @@ body { overflow-wrap: anywhere; }
 /* Official Instagram profile embed; the ordinary profile link stays available. */
 .instagram-section { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 480px); align-items: center; }
 .instagram-intro { min-width: 0; }
-.instagram-intro .instagram-link { margin-top: 16px; }
+.instagram-feed-group { min-width: 0; width: 100%; }
+.instagram-feed-group > .instagram-link { margin-top: 16px; }
 .instagram-feed { width: 100%; min-width: 0; container-type: inline-size; border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: white; }
 .instagram-feed iframe { display: block; width: 100%; height: 480px; border: 0; }
 @supports (height: 1cqw) {
@@ -2135,5 +2136,5 @@ body { overflow-wrap: anywhere; }
 }
 @media (max-width: 760px) {
   .instagram-section { grid-template-columns: minmax(0, 1fr); gap: 24px; }
-  .instagram-feed { max-width: 480px; justify-self: center; }
+  .instagram-feed-group { max-width: 480px; justify-self: center; }
 }
