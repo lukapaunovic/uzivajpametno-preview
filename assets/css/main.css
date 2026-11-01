@@ -1984,6 +1984,7 @@ body { overflow-wrap: anywhere; }
   background: radial-gradient(ellipse at 70% 65%, #7297ff 0%, transparent 58%), linear-gradient(135deg, #17058b, #3b48c3 55%, #628cfc);
 }
 .app-phone {
+  display: block;
   position: absolute;
   top: 12%;
   right: 8%;
