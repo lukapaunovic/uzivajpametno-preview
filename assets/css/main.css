@@ -2006,19 +2006,6 @@ body { overflow-wrap: anywhere; }
   background: #575c75;
 }
 .app-screen { width: 100%; height: auto; }
-.app-doctor {
-  position: absolute;
-  top: 19%;
-  left: 4%;
-  width: 27%;
-  height: auto;
-  padding: 5px;
-  background: white;
-  box-shadow: 0 12px 28px rgb(10 5 70 / 25%);
-  border-radius: 10px;
-  transform: rotate(-6deg);
-}
-.app-spark { position: absolute; left: 13%; bottom: 19%; width: 9%; height: auto; color: #ffdc64; }
 @media (max-width: 760px) {
   .hero-visual.app-visual { max-width: 440px; margin-inline: auto; border-radius: 20px 56px 20px 20px; }
   .app-phone { padding: 14px 4px 9px; border-width: 2px; border-radius: 20px; }
@@ -2050,12 +2037,12 @@ body { overflow-wrap: anywhere; }
   .hero-layout { gap: 24px; }
   .hero-banner .hero-intro { font-size: 1rem; }
 }
-@media (max-width: 760px) {
+@media (max-width: 1000px) {
   .hero.hero-banner { padding-block: 24px 40px; }
   .hero-partner { margin-bottom: 32px; }
   .hero-layout { grid-template-columns: 1fr; gap: 24px; }
-  .hero-banner .app-visual { margin-inline: auto; }
-  .hero-banner .app-phone { border-width: 3px; border-radius: 25px; padding: 20px 3px 12px; }
+  .hero-banner .app-visual { margin-inline: auto; aspect-ratio: auto; padding-block: 8px; }
+  .hero-banner .app-phone { position: relative; top: auto; right: auto; width: min(100%, 320px); margin-inline: auto; transform: none; border-width: 3px; border-radius: 25px; padding: 20px 3px 12px; }
   .hero-banner .app-phone::before { top: 5px; height: 9px; width: 34px; left: calc(50% - 17px); }
 }
 
