@@ -2052,7 +2052,7 @@ body { overflow-wrap: anywhere; }
 .app-doctor-card {
   position: absolute;
   z-index: 2;
-  top: 49%;
+  top: 16%;
   left: 50%;
   width: 64%;
   max-width: none;
