@@ -2034,7 +2034,7 @@ body { overflow-wrap: anywhere; }
   background: linear-gradient(115deg, #17058b 0%, #343bb4 55%, #4b73e2 100%);
 }
 .hero-partner { display: flex; justify-content: center; margin-bottom: 32px; }
-.partner-wordmark { display: block; width: 231px; max-width: 100%; height: auto; }
+.partner-wordmark { display: block; width: 196.35px; max-width: 100%; height: auto; }
 .hero-layout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 48px; align-items: center; }
 .hero-banner .hero-intro { max-width: 550px; color: white; font-size: 1.125rem; line-height: 1.65; }
 .hero-banner .hero-support { color: white; }
