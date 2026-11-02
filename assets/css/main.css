@@ -2138,3 +2138,15 @@ body { overflow-wrap: anywhere; }
   .instagram-section { grid-template-columns: minmax(0, 1fr); gap: 24px; }
   .instagram-feed-group { max-width: 480px; justify-self: center; }
 }
+
+.language-switch { display: flex; flex-shrink: 0; gap: 0; align-items: center; }
+.language-switch a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; font-size: .8rem; text-decoration: none; border-radius: 6px; }
+.language-switch a[aria-current="page"] { background: var(--purple); font-weight: 800; }
+.site-header { gap: 16px; }
+@media (max-width: 1000px) { .language-switch { margin-left: auto; } }
+@media (max-width: 760px) {
+ .site-header { gap: 6px; }
+ .site-header .brand-logo { width: 108px; height: auto; }
+ .language-switch a { min-width: 44px; }
+ .menu-toggle { min-width: 44px; }
+}

@@ -52,3 +52,13 @@ faqItems.forEach(item => {
   });
 });
 syncFaqState();
+
+// Preserve the current section when changing languages.
+document.querySelectorAll('.language-switch a').forEach(link => {
+  link.addEventListener('click', () => { if (location.hash) link.hash = location.hash; });
+});
+
+// GitHub Pages serves the root 404 document for unknown English URLs.
+if (document.body.classList.contains('error404') && document.documentElement.lang !== 'en' && location.pathname.startsWith('/uzivajpametno-preview/en/')) {
+  location.replace('/uzivajpametno-preview/en/404.html');
+}

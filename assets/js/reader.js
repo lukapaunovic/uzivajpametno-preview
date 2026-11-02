@@ -1,6 +1,7 @@
 'use strict';
 
 (() => {
+  const english = document.documentElement.lang === 'en';
   const dialog = document.querySelector('#prep-reader');
   const opener = document.querySelector('[data-reader-open]');
   if (!dialog || !opener || typeof dialog.showModal !== 'function') return;
@@ -90,10 +91,10 @@
       paragraph.textContent = text;
       return paragraph;
     }));
-    transcript.setAttribute('aria-label', `Tekst strane ${current + 1}`);
+    transcript.setAttribute('aria-label', `${english ? 'Page text' : 'Tekst strane'} ${current + 1}`);
     if (token !== revision || !dialog.open) return;
     busy = false;
-    status.textContent = `Strana ${current + 1} od ${pages.length}`;
+    status.textContent = english ? `Page ${current + 1} of ${pages.length}` : `Strana ${current + 1} od ${pages.length}`;
     updateControls();
     if (document.activeElement === document.body && resumeFocus) {
       (resumeFocus.disabled ? stage : resumeFocus).focus({ preventScroll: true });
@@ -107,14 +108,14 @@
     }
     const token = ++revision;
     busy = true;
-    status.textContent = 'Učitavanje stranice…';
+    status.textContent = english ? 'Loading page...' : 'Učitavanje stranice…';
     updateControls();
     renderQueue = renderQueue.catch(() => {}).then(() => render(token)).catch(() => {
       if (token !== revision || !dialog.open) return;
       paper.hidden = true;
       transcript.replaceChildren();
       stage.setAttribute('aria-busy', 'false');
-      status.textContent = 'Čitač trenutno nije dostupan. Preuzmi PDF dugmetom iznad ili osveži stranicu i pokušaj ponovo.';
+      status.textContent = english ? 'The reader is currently unavailable. Download the PDF or refresh the page and try again.' : 'Čitač trenutno nije dostupan. Preuzmi PDF dugmetom iznad ili osveži stranicu i pokušaj ponovo.';
     });
   }
 
