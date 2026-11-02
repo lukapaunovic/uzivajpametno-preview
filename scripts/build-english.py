@@ -29,6 +29,10 @@ for sr,en in routes.items():
    for e in s.select('meta[property^="og:image"],meta[name="twitter:image"]'):
     if e.get('content','').startswith('https://'):e['content']=host+base+'assets/images/social-preview-en.png'
    s.select_one('meta[property="og:image:type"]')['content']='image/png'
+   for img in s.select('.app-screen'):
+    img['src']=base+'assets/images/apoteka-app-en.jpg';img['width']='1206';img['height']='2398';img['alt']='The Apoteka.rs app home screen in English.'
+   for img in s.select('.app-doctor-card'):
+    img['src']=base+'assets/images/biljana-app-card-en.png';img['alt']="Dr Biljana Begović Vuksanović - book a consultation or a doctor's exam with the option of issuing an ePrescription."
    note=s.select_one('.instagram-intro')
    if note:
     p=s.new_tag('p',attrs={'class':'small-note'});p.string='Instagram posts are in Serbian.';note.append(p)

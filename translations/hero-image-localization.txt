@@ -1,0 +1,5 @@
+English app screenshot: supplied by the user as preview_ss_english (1).jpg, copied without edits to assets/images/apoteka-app-en.jpg.
+English doctor card: assets/images/biljana-app-card-en.png.
+Built-in imagegen text-localization was used for the English text area. The original Serbian card remains the base; only the text area was composited from the localized image. The original photograph and icon area were verified pixel-for-pixel unchanged.
+Final prompt: Replace only the Serbian lettering, preserving layout, colours, fonts and non-text elements. Heading: Need a doctor. Body: Book a consultation or a doctor's exam with the option of issuing an ePrescription.
+Serbian assets remain unchanged. The English build script selects the localized assets only for English pages.
