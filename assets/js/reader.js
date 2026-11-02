@@ -108,7 +108,7 @@
     }
     const token = ++revision;
     busy = true;
-    status.textContent = english ? 'Loading page...' : 'Učitavanje stranice…';
+    status.textContent = english ? 'Loading page...' : 'Učitavanje stranice...';
     updateControls();
     renderQueue = renderQueue.catch(() => {}).then(() => render(token)).catch(() => {
       if (token !== revision || !dialog.open) return;

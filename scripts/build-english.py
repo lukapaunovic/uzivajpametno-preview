@@ -47,7 +47,7 @@ for sr,en in routes.items():
    nav.append(a)
   s.select_one('.menu-toggle').insert_before(nav)
   for e in s.select('link[href*="main.css"]'):e['href']=base+'assets/css/main.css?ver=1.0.18'
-  for e in s.select('script[src*="reader.js"]'):e['src']=base+'assets/js/reader.js?ver=1.0.3'
+  for e in s.select('script[src*="reader.js"]'):e['src']=base+'assets/js/reader.js?ver=1.0.4'
   for e in s.select('script[src*="main.js"]'):e['src']=base+'assets/js/main.js?ver=1.0.3'
   out=str(s).replace('viewbox=','viewBox=')
   if lang=='en':
