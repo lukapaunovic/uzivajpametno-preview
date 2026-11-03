@@ -27,12 +27,15 @@ for sr,en in routes.items():
       if path==url(a):e['href']=url(b)+(sep+fragment if sep else '');break
    for e in s.select('meta[property="og:locale"]'):e['content']='en_GB'
    for e in s.select('meta[property^="og:image"],meta[name="twitter:image"]'):
-    if e.get('content','').startswith('https://'):e['content']=host+base+'assets/images/social-preview-en.png'
+    if e.get('content','').startswith('https://'):e['content']=host+base+'assets/images/social-preview-play-safe.png'
    s.select_one('meta[property="og:image:type"]')['content']='image/png'
    for img in s.select('.app-screen'):
     img['src']=base+'assets/images/apoteka-app-en.jpg';img['width']='1206';img['height']='2398';img['alt']='The Apoteka.rs app home screen in English.'
    for img in s.select('.app-doctor-card'):
     img['src']=base+'assets/images/biljana-app-card-en.png';img['alt']="Dr Biljana Begović Vuksanović - book a consultation or a doctor's exam with the option of issuing an ePrescription."
+   for old in s.select('.brand-logo'):
+    old.replace_with(BeautifulSoup((root/'assets/images/play-safe-logo.svg').read_text(),'html.parser').svg)
+   for icon in s.select('link[rel="icon"]'):icon['href']=base+'assets/images/favicon-en.svg'
    note=s.select_one('.instagram-intro')
    if note:
     p=s.new_tag('p',attrs={'class':'small-note'});p.string='Instagram posts are in Serbian.';note.append(p)
