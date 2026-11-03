@@ -49,9 +49,20 @@ for sr,en in routes.items():
    if code==lang:a['aria-current']='page'
    nav.append(a)
   s.select_one('.menu-toggle').insert_before(nav)
-  for e in s.select('link[href*="main.css"]'):e['href']=base+'assets/css/main.css?ver=1.0.18'
+  for e in s.select('link[href*="main.css"]'):e['href']=base+'assets/css/main.css?ver=1.0.19'
   for e in s.select('script[src*="reader.js"]'):e['src']=base+'assets/js/reader.js?ver=1.0.4'
   for e in s.select('script[src*="main.js"]'):e['src']=base+'assets/js/main.js?ver=1.0.3'
+  # Responsive assets preserve the originals while reducing transfer size.
+  for selector,stem,widths,sizes in [('.app-screen','apoteka-app-en' if lang=='en' else 'apoteka-app-no-ad',[320,640,960],'(max-width: 1000px) 288px, (max-width: 1440px) 20vw, 278px'),('.app-doctor-card','biljana-app-card-en' if lang=='en' else 'biljana-app-card',[200,400,607],'(max-width: 1000px) 184px, (max-width: 1440px) 13vw, 178px'),('.doctor-photo','dr-biljana-begovic-vuksanovic',[200,400,800],'200px')]:
+   for img in s.select(selector):
+    img['src']=base+'assets/images/'+stem+'-'+str(widths[1])+'.webp'
+    img['srcset']=', '.join(base+'assets/images/'+stem+'-'+str(w)+'.webp '+str(w)+'w' for w in widths)
+    img['sizes']=sizes
+    img['decoding']='async'
+  for el in s.select('link[data-performance-font],script[data-performance-init]'):el.decompose()
+  for font in ['dynapuff-regular-latin.woff2','manrope-latin.woff2']:
+   s.head.insert(2,s.new_tag('link',attrs={'rel':'preload','as':'font','type':'font/woff2','crossorigin':'anonymous','href':base+'assets/fonts/'+font,'data-performance-font':''}))
+  init=s.new_tag('script',attrs={'data-performance-init':''});init.string="document.documentElement.classList.add('js');";s.head.insert(2,init)
   out=str(s).replace('viewbox=','viewBox=')
   if lang=='en':
    for a,b in [('—','-'),('–','-'),('„','"'),('“','"'),('”','"'),('’',"'")]:out=out.replace(a,b)
